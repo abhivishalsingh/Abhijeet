@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  h2 {
+    text-align: center;
+    color: #e91e63;
+  }
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 40px;
+    margin: 25px auto;
+    max-width: 450px;
+    position: relative;
+  }
+  .badge {
+    background: #f06292;
+    color: white;
+    padding: 4px 10px;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .highlight {
+    border: 2px solid #f06292;
+    background: #fff0f5;
+  }
+  .highlight .most-popular {
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    background: #f06292;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px 10px;
+    border-radius: 3px;
+  }
+  .price-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .price-section .old-price {
+    text-decoration: line-through;
+    color: grey;
+    font-size: 14px;
+  }
+  .selectors {
+    display: none;
+    margin-top: 15px;
+  }
+  .selectors.show {
+    display: block;
+  }
+  .row {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  .row select {
+    padding: 6px;
+    width: 30%;
+  }
+  .footer {
+    text-align: center;
+    margin-top: 30px;
+  }
+  .footer button {
+    background: #f06292;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
